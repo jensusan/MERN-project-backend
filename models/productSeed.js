@@ -1,5 +1,5 @@
 const productSeed = [
-    {image: "https://i.imgur.com/30YWsfP.gifv",
+    {image: "https://i.imgur.com/30YWsfP.gif",
     name: "valency-r rhinestones",
     price: 149.95,
     description: "Attention-grabbing and just fabulous, VALENCY-R needs to be on your radar now. This fierce corset-inspired stiletto heel bootie is both sexy and cool, perfect for tucking into cargo pants or jeans.",
