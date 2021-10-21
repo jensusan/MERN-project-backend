@@ -34,7 +34,7 @@ router.post("/products", async (req, res) => {
 
 router.put("/products/:id", async (req, res) => {
     try {
-        res.json( await Products.findByIdAndUpdate(req.params.id, req.body)
+        res.json(await Products.findByIdAndUpdate(req.params.id, req.body, {new: true})
         )
     } catch (error) {
         res.status(400).json(error);
